@@ -1,1 +1,9 @@
 @import "tailwindcss";
+* {
+  font-family: "Chakra Petch", sans-serif;
+}
+@theme {
+  --color-red-light: #701111ff;
+  --color-red: #4e0f0fff;
+  --color-red-dark: #2d0a0aff;
+}
