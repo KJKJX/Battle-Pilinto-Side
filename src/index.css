@@ -1,6 +1,12 @@
 @import "tailwindcss";
 * {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Jersey 20", sans-serif;
+}
+img {
+  user-drag: none;
+  -webkit-user-drag: none; /* For WebKit-based browsers like Chrome, Safari */
+  -moz-user-drag: none; /* For Firefox */
+  -ms-user-drag: none; /* For Internet Explorer/Edge */
 }
 @theme {
   --color-red-light: #701111ff;
